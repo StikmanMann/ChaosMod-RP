@@ -1,0 +1,14 @@
+{
+	"texture_data": {
+		"fuse": {
+			"textures": "textures/items/fuse.png"
+		},
+		"healing_syringe": {
+			"textures": {
+				"path": "textures/items/healing_syringe"
+			}
+		}
+	},
+	"resource_pack_name": "EntityMapping",
+	"texture_name": "atlas.items"
+}

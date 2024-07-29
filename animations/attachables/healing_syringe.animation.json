@@ -1,0 +1,118 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.healing_syringe.first_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [90, 56, -32],
+					"position": [9, 18, 5]
+				}
+			}
+		},
+		"animation.healing_syringe.third_person_hold": {
+			"loop": true,
+			"bones": {
+				"root_item": {
+					"rotation": [25, 0, 0],
+					"position": [0.5, 19, -2.5],
+					"scale": 0.85
+				}
+			}
+		},
+		"animation.healing_syringe.heal": {
+			"loop": true,
+			"animation_length": 1.375,
+			"bones": {
+				"root_item": {
+					"rotation": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.2917": {
+							"post": [75, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.4167": {
+							"post": [73.31148, -2.45002, -14.80309],
+							"lerp_mode": "catmullrom"
+						},
+						"0.5417": {
+							"post": [68.01842, 23.61368, 21.03814],
+							"lerp_mode": "catmullrom"
+						},
+						"0.625": {
+							"post": [75, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.0833": {
+							"post": [157.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"1.3333": {
+							"post": [157.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"position": {
+						"0.0": {
+							"post": [0, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.2917": {
+							"post": [0, 4, -5],
+							"lerp_mode": "catmullrom"
+						},
+						"0.375": {
+							"post": [0, 0, 8],
+							"lerp_mode": "catmullrom"
+						},
+						"0.625": {
+							"post": [0, 4, -2],
+							"lerp_mode": "catmullrom"
+						},
+						"1.0833": {
+							"post": [0, 30, -24],
+							"lerp_mode": "catmullrom"
+						},
+						"1.3333": {
+							"post": [0, 64, -34],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"inner_fluid": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.375": [0, 0, 0]
+					},
+					"scale": 1
+				},
+				"pivot": {
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.375": [1, 1, 1],
+						"0.625": {
+							"pre": [1, -0.1, 0.9],
+							"post": [1, -0.1, 0.9],
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"stinger": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.2083": [0, 0, 0]
+					}
+				},
+				"offset": {
+					"position": {
+						"0.0": [10.25239, -30.05341, -9.41705],
+						"0.8333": [9.65233, -30.80338, -7.66637]
+					}
+				}
+			}
+		}
+	}
+}
